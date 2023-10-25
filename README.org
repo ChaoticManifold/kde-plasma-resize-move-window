@@ -15,4 +15,7 @@
   2. Modify and add additional keybindings to the script file:contents/code/main.js. For testing different inputs, copy the function into =plasma-interactiveconsole --kwin=.
   3. Run =kpackagetool5 --type=KWin/Script -i .= inside the directory to install the script. (It should be possible to install this script from the KWin Scripts in system settings, but I have never got this to work.) You may need to restart KWin for this to take effect. 
 
+* Known Bugs
+  - Using this with no windows in focus or with an empty desktop can sometimes resize the kde desktop background
+  - Focus doesn't follow the mouse correctly after snapping a window, this can be annoying when there are mutliple windows to arrange
 
